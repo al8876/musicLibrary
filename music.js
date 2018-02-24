@@ -9,13 +9,6 @@ function Library(name, creator) {
 function Playlist(name) {
   this.name = name;
   this.tracks = [];
-  // get totalDuration() {
-  //   let acc = 0;
-  //   this.tracks.forEach((track) => {
-  //      acc += track.length;
-  //   });
-  //   console.log(acc);
-  // }
 }
 
 // Prototype to add playlist to library
