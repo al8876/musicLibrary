@@ -49,6 +49,7 @@ Playlist.prototype.addTrack = function(track) {
   this.tracks.push(track);
 }
 
+// Prototype to find total duration of playlist
 Playlist.prototype.totalDuration = function() {
   let acc = 0;
   this.tracks.forEach((track) => {
@@ -57,6 +58,7 @@ Playlist.prototype.totalDuration = function() {
   console.log(acc);
 }
 
+// Prototype to find overall rating of playlist
 Playlist.prototype.overallRating = function() {
   let acc = 0;
   let count = this.tracks.length;
@@ -91,7 +93,6 @@ Playlist2.addTrack(Track3);
 Playlist2.addTrack(Track4);
 
 // // PRINT FINAL LIBRARY
-// Library1.print();
-
+Library1.print();
 Playlist1.totalDuration();
 Playlist1.overallRating();
