@@ -31,7 +31,6 @@ function Track(name, artist, rating, length) {
   } else {
     throw ('Rating wrong');
   }
-  let parsedRating = 
   this.name = name;
   this.artist = artist;
   this.length = length;
